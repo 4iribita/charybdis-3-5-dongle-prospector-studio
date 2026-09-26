@@ -20,7 +20,7 @@ manifest:
       remote: carrefinho
       revision: feat/new-status-screens
     - name: zmk-unicode
-      path: modules/zmk/unicode
+      remote: urob
       revision: 5f458b6f1fd8ca83f4aba793c2a64916522507e9 # main (2026-08-31)
   self:
     path: config
