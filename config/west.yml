@@ -6,10 +6,12 @@ manifest:
       url-base: https://github.com/badjeff
     - name: carrefinho
       url-base: https://github.com/carrefinho
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: 641514a97db345f499dd50b0360e594270f008fe # main (2026-08-31)
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
@@ -17,5 +19,8 @@ manifest:
     - name: prospector-zmk-module
       remote: carrefinho
       revision: feat/new-status-screens
+    - name: zmk-unicode
+      path: modules/zmk/unicode
+      revision: 5f458b6f1fd8ca83f4aba793c2a64916522507e9 # main (2026-08-31)
   self:
     path: config
