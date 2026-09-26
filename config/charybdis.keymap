@@ -183,7 +183,7 @@
       bindings = <
         &kp N1     &kp N2    &kp N3     &kp N4    &kp N5            &kp N6          &kp N7   &kp N8   &kp N9   &kp N0 
         &kp LGUI   &kp LCTRL &kp LSHFT  &kp LALT  &kp LS(LALT)      &kp LS(LALT)    &mkp MB1 &mkp MB2 &mkp MB3 &kp SLCK
-        &kp K_APP  &uc 0x2C &mo 3      &mo 2     &trans            &trans          &trans   &trans   &uc 0x2E  &trans
+        &kp K_APP  &uc 0x2C 0 &mo 3      &mo 2     &trans            &trans          &trans   &trans   &uc 0x2E 0  &trans
                            &mkp MB3  &mkp MB2  &mkp MB1          &trans &trans 
       >;
     };
