@@ -21,6 +21,5 @@ manifest:
       revision: feat/new-status-screens
     - name: zmk-unicode
       remote: urob
-      revision: main
   self:
     path: config
